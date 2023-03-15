@@ -1,0 +1,78 @@
+.text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 3rem;
+}
+section{
+    padding-bottom: 5rem;
+}
+
+.text:before {
+    position: absolute;
+    content: "Sanitize";
+    font-size: 150px;
+    opacity: 0.1;
+    top: 0;
+}
+
+h1{
+    padding-top: 8.3rem;
+    font-size: 40px;
+}
+
+.img img{
+    width: 100%;
+    transition: 0.8s;
+}
+
+.img:hover>img{
+   transform: scale(1.1)
+}
+
+.img{
+    overflow: hidden;
+}
+
+.box{
+    position: relative;
+}
+
+
+.content{
+    background-color: #f2f2f2;
+    padding-left: 2rem;
+}
+
+.content .price span{
+    font-size: 20px;
+    font-weight: 4px;
+}
+
+.content .price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .price .stars{
+    padding-right: 2rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    width: 35px;
+    height: 150px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    border-radius: 18px;
+    background-color: white;
+    z-index: 1;
+}
+.icons>i{
+    margin-bottom: 15px;
+}
